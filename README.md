@@ -48,16 +48,16 @@ SmartCache DNS is a DNS proxy that:
 
 You should see something like...
 
-[+] SmartCache DNS proxy running on 127.0.0.1:53535
+[+] SmartCache DNS proxy running on 127.0.0.1:53536
 
 2. **In a second terminal, run DNS queries through the proxy using dig:**
 
-dig @127.0.0.1 -p 53535 canvas.harvard.edu
+dig @127.0.0.1 -p 53536 canvas.harvard.edu
 
 3. **Try a sequence of domains (e.g., Harvard-related services):**
-dig @127.0.0.1 -p 53535 zoom.us
-dig @127.0.0.1 -p 53535 gmail.com
-dig @127.0.0.1 -p 53535 piazza.com
+dig @127.0.0.1 -p 53536 zoom.us
+dig @127.0.0.1 -p 53536 gmail.com
+dig @127.0.0.1 -p 53536 piazza.com
 
 4. **Watch the terminal for real-time output:**
 You'll see cache hits, misses, TTLs, and prefetch activity like:
